@@ -1,0 +1,9 @@
+* Como configurar Xampp para el envio de correos por formularios php
+https://www.youtube.com/watch?v=v1cYlb88GT0&t=156s
+//////////////////////////////////////////////////////////////////
+*Mandar SMS con NEXMO 
+https://github.com/Nexmo/nexmo-php
+/////////////////////////////////////////////////////////////////
+*COMO RESTAURAR UNA BASE DE DATOS EN PHPMYADMIN | MYSQL 
+https://www.youtube.com/watch?v=_7qlDz2Hl3o
+////////////////////////////////////////////////////////////////

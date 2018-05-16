@@ -1,0 +1,17 @@
+0.-Instalar Xampp 
+
+
+1.- iniciar los servicio de apache y mysql.
+
+2.- Restaurar la bd , creas una nueva bd y tiene que llevar el mismo nombre del respaldo
+en este caso la bd se llama proyecto
+
+3.-Copiar los archivos en xampp en la carpeta htdoc
+
+4.- iniciar session desde el navegaro de preferencia crome en la siguiente direccion
+http://localhost/proyecto/login.php
+
+5.- El usuario es luis y la contraseña es 123456
+
+6.- En el caso de mandar msj de texto solo funcionara en el cel luis ya que el solamente esta registrado en el servidor de Nexmo
+y si quieres recibir sms tienes que darte de alta en registro del aspirante 

@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Página Principal</title>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+	font-style: italic;
+}
+.auto-style2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30pt;
+	font-style: normal;
+}
+.auto-style3 {
+	font-style: normal;
+}
+.auto-style4 {
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+}
+.auto-style5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+}
+.auto-style6 {
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+<script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button2A.gif',/*url*/'button2B.gif',/*url*/'button2D.gif',/*url*/'button2E.gif')" style="background-color: #F0F0F0">
+
+<p class="auto-style1">
+<img height="86" src="Imagen1.png" width="803" /></p>
+<label id="Label1"></label>
+<p class="auto-style1">&nbsp;<p class="auto-style1"><span class="auto-style2">
+<strong><em>Bienvenido</em></strong></span>&nbsp;</p>
+<p class="auto-style1"><img height="66" src="users-password.png" width="100" /></p>
+	<div class="auto-style1">
+		&#39;<span class="auto-style4">Nombre de Usuario:</span>
+		<input name="Text_Usuario" size="15" type="text" /><br />
+		<br />
+		<span class="auto-style3">&nbsp;<span class="auto-style5">&nbsp; 
+		Contraseña:</span></span>
+		<input name="Text_Contraseña" size="8" type="password" value="Contraseña" /><br />
+		<br />
+		<a href="Bienvenido.html">
+		<img id="img1" alt="ENTRAR" height="40" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button2B.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button29.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button2A.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button2A.gif')" src="button29.gif" style="border: 0" width="120" /><!-- MSComment="ibutton" fp-style="fp-btn: Glow Capsule 1; fp-font-size: 11; fp-transparent: 1; fp-proportional: 0" fp-title="ENTRAR" --></a><br />
+		<br />
+		<br />
+		<span class="auto-style6">¿No tienes cuenta? Créate una cuenta ahora...</span><br />
+		<a href="Declarativa.html">
+		<img id="img2" alt="Regístrate" height="40" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button2E.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button2C.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button2D.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button2D.gif')" src="button2C.gif" style="border: 0" width="200" /><!-- MSComment="ibutton" fp-style="fp-btn: Glow Capsule 2; fp-font-size: 12; fp-transparent: 1" fp-title="Regístrate" --></a></div>
+
+</body>
+
+</html>
