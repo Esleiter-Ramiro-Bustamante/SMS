@@ -60,7 +60,7 @@
 
       <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
-        <a class="p-2 btn btn-sm btn-outline-primary active" style="font-size:20px;" href="regis.php">Registrar Datos Aspirante</a>
+        <a class="p-2 btn btn-sm btn-outline-primary active" style="font-size:20px;" href="asp.php">Registrar Datos Aspirante</a>
           <a class="p-2 btn btn-sm btn-outline-primary" style="font-size:20px;" href="data.php">Enviar EMAIL/SMS</a>
           <a class="p-2 btn btn-sm btn-outline-primary" style="font-size:20px;" href="costos.php">Costo de Licencias</a>
           <a class="p-2 btn btn-sm btn-outline-primary" style="font-size:20px;" href="format.php">Formato unico</a>

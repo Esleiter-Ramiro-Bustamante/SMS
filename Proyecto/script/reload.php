@@ -129,7 +129,7 @@ switch ($p) {
 		  }); </script>";
 		
 		break;
-		case 'errorsec': //no ha seleccionado una cantidad
+		case 'errorasp': //no ha seleccionado una cantidad
 	echo " <script> 	swal({
 			title: '$tl',
 			text: '$mensaje',
@@ -137,7 +137,7 @@ switch ($p) {
 			confirmButtonColor: '#3085d6',
 			confirmButtonText: 'Ok'
 		  }).then(function () {
-			location.href='../secret/inicio.php';
+			location.href='../index.php';
 		  }); </script>";
 		
 		break;
@@ -149,7 +149,7 @@ switch ($p) {
 			confirmButtonColor: '#3085d6',
 			confirmButtonText: 'Ok'
 		  }).then(function () {
-			location.href='../data.php';
+			location.href='../index.php';
 		  }); </script>";
 
 		break;

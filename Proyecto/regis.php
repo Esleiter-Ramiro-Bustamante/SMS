@@ -1,15 +1,4 @@
- <?php 
 
-
-session_start();
-if (isset($_SESSION['u_usuario'])) {
-  echo ' ' . $_SESSION['u_usuario'];
-
-} else {
-  header("Location:login.php");
-}
-
-?>
 <!doctype html>
 <html lang="es">
   <head>
